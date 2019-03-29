@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+.content h1
+{
+  text-align:left;
+  font-size: 65px;
+  font-weight: 600;
+  color: black;
+  padding-left:30%;
+  margin-bottom: 180px;
+}
+.content1 h1
+{
+  text-align:left;
+  font-size: 65px;
+  font-weight: 600;
+  color: #fff;
+  padding-left:20%;
+  margin-bottom: 180px;
+}
+.t1
+{
+	margin-top:-10%;
+	
+}
+.t2
+{
+	margin-top:-10%;
+}
+.button
+{
+position:absolute; 
+margin-left:80%;   
+width:130px;
+bottom:390px;
+display: inline-block;
+padding: 5px 5px;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+background: black;
+color: white;
+border: none;
+
+}
+
+.button:hover {background-color: #c0c0c0}
+
+.button:active {
+  background-color: #c0c0c0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+th
+{
+	background-color:#f44336;
+	color:white;
+}
