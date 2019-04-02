@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.button  input[type="submit"] 
+{
+ 
+  
+  
+  position:absolute;   
+width:130px;
+display: inline-block;
+padding: 5px 5px;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+background: black;
+color: white;
+border: none;
+  }
+  
+ .button  input[type="submit"]:hover
+  {
+  background-color: grey;
+  color:black;
+  }
+</style>
+<script>
+function forget()
+{
+	window.alert("password updated successfully!")
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Forgot Password </title>
+
+<link rel="stylesheet" href="aboutus.css">
+</head>
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+<div class="w3-top">
+  <div class="w3-bar  w3-red w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#Adminhome" class="w3-bar-item w3-button w3-hover-white">State Scholarship</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="http://localhost:8086/ScholarshipProject/Home.jsp" class="w3-bar-item w3-button w3-hover-white">Home</a>
+      <a href="http://localhost:8086/ScholarshipProject/aboutus.html#about" class="w3-bar-item w3-button w3-hover-white">About</a>
+      <a href="http://localhost:8086/ScholarshipProject/aboutus.html#contact" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+ 
+    </div>
+  </div>
+</div>
+<br><br><br><br>
+<h1>Forgot Password</h1>
+<form action="Forgetadmin.jsp" method="post"><br><br>
+Enter User ID:<input type="text" name="UserID" /><br><br>
+Enter New Password:<input type="text" name="password"/><br><br>
+Confirm New Password:<input type="text" name="confirmpassword"/><br><br>
+<div class="button">
+<input type="submit" value="Update Password" onclick="forget()" /></div>
+</form>
+</body>
+</html>
